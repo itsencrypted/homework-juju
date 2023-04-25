@@ -16,6 +16,8 @@ CONSENSUS BUG:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wklZU_MYnAk?start=1789" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+{%youtube 1G4isv_Fylg %}
+
 In this video Terence Tsao discusses the risks of running a single client implementation in Ethereum and how a bug in a single client can lead to a consensus bug. He explains that a consensus bug occurs when there is a disagreement between nodes in the network about the current state of the blockchain. This can occur if a client implementation contains a bug that causes it to interpret the blockchain data differently from other client implementations.
 
 If a consensus bug occurs, it can lead to a fork in the blockchain where some nodes see one version of the blockchain and others see another version. This can lead to a breakdown in the consensus mechanism and potentially compromise the security and reliability of the blockchain network.
