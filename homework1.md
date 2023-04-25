@@ -2,9 +2,25 @@
 
 Client diversity is important for Ethereum for several reasons. First, it reduces the risk of a single point of failure in the network. If all nodes on the network are running the same client software and that software has a vulnerability, the entire network could be compromised. However, if there are multiple client implementations running on the network, the impact of any single vulnerability is reduced.
 
-Second, client diversity promotes decentralization of the network. With multiple client implementations, there is no single entity that controls the network. This prevents any one group from having too much power over the network, which is important for maintaining Ethereum's trustlessness.
+Second, client diversity promotes decentralization of the network. Decentralization risk: If a single client implementation dominates the network, it creates centralization around that implementation and undermines the decentralization benefits of blockchain technology.
 
-Finally, client diversity encourages healthy competition among developers. If there is only one dominant client implementation, developers may be less motivated to innovate and improve their code. With multiple implementations, developers are incentivized to create the best possible software, which benefits the entire Ethereum ecosystem.
+Other risks involved are:
+
+Vulnerability risk: If a single client implementation dominates the network, it increases the risk of a single point of failure. If that client implementation has a vulnerability or bug that is exploited, it could potentially compromise the entire network.
+
+Attack surface: A single client implementation offers a larger attack surface to potential attackers than multiple implementations. With only one client implementation in use, attackers can focus their efforts on finding vulnerabilities and exploits specific to that implementation, rather than having to target multiple implementations with varying codebases.
+
+Upgrade risk: When a new version of the Ethereum protocol is released, it is possible that some client implementations may not support the upgrade immediately. If a single client implementation is used by the majority of the network, it could create a bottleneck and prevent the network from upgrading smoothly.
+
+CONSENSUS BUG:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wklZU_MYnAk?start=1789" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+In this video Terence Tsao discusses the risks of running a single client implementation in Ethereum and how a bug in a single client can lead to a consensus bug. He explains that a consensus bug occurs when there is a disagreement between nodes in the network about the current state of the blockchain. This can occur if a client implementation contains a bug that causes it to interpret the blockchain data differently from other client implementations.
+
+If a consensus bug occurs, it can lead to a fork in the blockchain where some nodes see one version of the blockchain and others see another version. This can lead to a breakdown in the consensus mechanism and potentially compromise the security and reliability of the blockchain network.
+
+To prevent consensus bugs, Terence emphasizes the importance of client diversity and using multiple client implementations that have been thoroughly tested and audited to ensure that they interpret the blockchain data in a consistent and accurate manner.
 
 # 2. Where is the full Ethereum state held ?
 
