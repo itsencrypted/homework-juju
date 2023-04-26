@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.18;
 
-contract ArrayDeletion {
+contract Homework2 {
     uint256[] private s_items;
     uint256 public s_randomSeed;
 
